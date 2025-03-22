@@ -1,0 +1,82 @@
+* {
+  background-color: blueviolet;
+  padding: 10px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.name-of-cat {
+  text-align: center;
+  line-height: 60px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 32px;
+  margin: 0px auto 0px auto;
+}
+
+.description {
+  text-align: center;
+  margin: 0px auto 0px auto;
+  display: inline-block;
+  color: transparent;
+  background: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  background-clip: text;
+  transition: 1.5s linear;
+  background-repeat: no-repeat;
+  background-size: 0%;
+  font-size: 22px;
+}
+
+.description:hover {
+  background-size: 100%;
+}
+
+.little-history {
+  text-align: center;
+  font-size: 14px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 18px;
+  margin: 0px auto 0px auto;
+}
+
+.tribute-info p {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0px auto 0px auto;
+}
+
+.tribute-info ul span {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0px auto 0px auto;
+}
+
+blockquote {
+  margin: 0px auto 0px auto;
+}
+
+blockquote p:first-of-type {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+blockquote p:last-of-type {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
